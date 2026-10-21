@@ -1,0 +1,8 @@
+# RAG-Anything stack for the /rag skill. Versions are the ones in the working
+# ~/.rag/venv (Python 3.11.15). Use Python 3.11.
+raganything[image,text]==1.4.2
+lightrag-hku==1.4.16
+# MinerU 4 dropped the `mineru -p/-o/-m` CLI that raganything 1.4.x calls.
+mineru[core]==3.4.5
+ollama==0.6.3
+python-dotenv==1.2.4
